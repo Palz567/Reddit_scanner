@@ -18,7 +18,7 @@ scraper = RedditScraper(
 st.title("Reddit Keyword Scraper")
 
 # UI for user input
-keyword = st.text_input("Enter keyword to search on Reddit:", value="deepseek")
+keyword = st.text_input("Enter keyword to search on Reddit:", value="deepfake")
 limit = st.number_input("Number of results", min_value=1, max_value=100, value=20, step=1)
 
 if st.button("Search"):
