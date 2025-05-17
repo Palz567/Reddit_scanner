@@ -13,7 +13,7 @@ def main():
         config["user_agent"]
     )
 
-    keyword = "deepseek"
+    keyword = "deepfake"  
     print(f"Searching Reddit for posts containing: '{keyword}'...")
     results = scraper.search_posts(keyword)
 
