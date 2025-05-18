@@ -1,5 +1,5 @@
 import streamlit as st
-from scraper import RedditScraper
+from reddit_client import RedditScraper
 from utils import save_to_csv
 from config import load_config
 import os
@@ -15,7 +15,7 @@ scraper = RedditScraper(
     config["user_agent"]
 )
 
-st.title("Reddit Keyword Scraper")
+st.title("Social Media Sentiment Analysis")
 
 # UI for user input
 keyword = st.text_input("Enter keyword to search on Reddit:", value="deepfake")

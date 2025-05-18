@@ -1,4 +1,4 @@
-# Reddit Keyword Scraper
+# Social Media Sentiment Analysis
 
 This project provides a web-based UI to search Reddit for posts containing a specified keyword and download the results as a CSV file.
 
