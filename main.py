@@ -1,6 +1,6 @@
 # main.py
 from config import load_config
-from scraper import RedditScraper
+from reddit_client import RedditScraper
 from utils import save_to_csv
 import os
 
