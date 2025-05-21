@@ -27,7 +27,9 @@ if st.button("Search"):
         if results:
             st.success(f"Found {len(results)} posts for '{keyword}'.")
             # Show results in a table
-            df = pd.DataFrame(results, columns=["Post URL"])
+            df = pd.DataFrame(results, columns=[
+                "Post ID", "Title", "Subreddit", "Author", "Created Time", "Keyword Matched", "Post URL"
+            ])
             st.dataframe(df)
 
             # Option to download as CSV
@@ -40,7 +42,7 @@ if st.button("Search"):
             )
 
             # Also save to data directory
-            data_path = os.path.join(config["data_dir"], "reddit_results2.csv")
-            save_to_csv(results, keyword, filename=data_path)
+            data_path = os.path.join(config["data_dir"], "reddit_results3.csv")
+            save_to_csv(results, filename=data_path)
         else:
             st.warning("No posts found for this keyword.")

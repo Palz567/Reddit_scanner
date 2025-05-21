@@ -17,7 +17,7 @@ def main():
     print(f"Searching Reddit for posts containing: '{keyword}'...")
     results = scraper.search_posts(keyword)
 
-    data_path = os.path.join(config["data_dir"], "reddit_results2.csv")
+    data_path = os.path.join(config["data_dir"], "reddit_results3.csv")
     save_to_csv(results, keyword, filename=data_path)
 
 if __name__ == "__main__":
