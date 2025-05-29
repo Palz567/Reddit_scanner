@@ -1,0 +1,18 @@
+2025-05-30 00:22:22,866 INFO: Reddit API configuration loaded.
+2025-05-30 00:22:23,263 INFO: RedditScraper initialized.
+2025-05-30 00:22:31,912 INFO: Reddit API configuration loaded.
+2025-05-30 00:22:31,914 INFO: RedditScraper initialized.
+2025-05-30 00:22:32,128 INFO: Reddit API configuration loaded.
+2025-05-30 00:22:32,129 INFO: RedditScraper initialized.
+2025-05-30 00:22:32,135 INFO: User initiated search for keywords: ['Financial Fraud', 'AI Fraud', 'Deepfake'] with limit: 200
+2025-05-30 00:22:32,137 INFO: Searching posts for keyword: Financial Fraud
+2025-05-30 00:22:39,877 INFO: Found 30 posts for keyword: Financial Fraud
+2025-05-30 00:22:39,878 INFO: Searching posts for keyword: AI Fraud
+2025-05-30 00:22:44,802 INFO: Found 8 posts for keyword: AI Fraud
+2025-05-30 00:22:44,803 INFO: Searching posts for keyword: Deepfake
+2025-05-30 00:22:50,846 INFO: Found 70 posts for keyword: Deepfake
+2025-05-30 00:22:50,848 INFO: Total posts found: 108
+2025-05-30 00:22:50,961 INFO: Results displayed in UI and CSV download offered.
+2025-05-30 00:22:50,989 INFO: Results saved to D:\Codz\Python\TwitterProj\Reddit_scanner\data\reddit_results3.csv
+2025-05-30 01:59:53,915 INFO: Reddit API configuration loaded.
+2025-05-30 01:59:53,932 INFO: RedditScraper initialized.
