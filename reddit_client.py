@@ -1,4 +1,4 @@
-# scraper.py
+# reddit_client.py
 import praw
 import datetime
 
@@ -25,6 +25,6 @@ class RedditScraper:
                         "Author": str(submission.author),
                         "Created Time": created_time,
                         "Keyword Matched": keyword,
-                        "Post URL": submission.url
+                        "Post URL": f"https://www.reddit.com{submission.permalink}"
                     })
         return posts

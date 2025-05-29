@@ -15,19 +15,24 @@ scraper = RedditScraper(
     config["user_agent"]
 )
 
-st.title("Social Media Sentiment Analysis")
+st.title("Project Kavach")
 
 # UI for user input
-keyword = st.text_input("Enter keyword to search on Reddit:", value="deepfake")
-limit = st.number_input("Number of results", min_value=1, max_value=100, value=20, step=1)
+keywords_input = st.text_input("Enter keyword(s) to search on Reddit (comma-separated):", value="Financial Fraud,AI Fraud,Deepfake")
+keywords = [k.strip() for k in keywords_input.split(",") if k.strip()]
+limit = st.number_input("Number of results (Last 1 Year)", min_value=1, max_value=10000, value=20, step=1)
 
 if st.button("Search"):
-    with st.spinner(f"Searching Reddit for '{keyword}'..."):
-        results = scraper.search_posts(keyword, limit=limit)
-        if results:
-            st.success(f"Found {len(results)} posts for '{keyword}'.")
+    with st.spinner(f"Searching Reddit for: {', '.join(keywords)}"):
+        all_results = []
+        for keyword in keywords:
+            results = scraper.search_posts(keyword, limit=limit)
+            all_results.extend(results)
+
+        if all_results:
+            st.success(f"Found {len(all_results)} posts for '{', '.join(keywords)}'.")
             # Show results in a table
-            df = pd.DataFrame(results, columns=[
+            df = pd.DataFrame(all_results, columns=[
                 "Post ID", "Title", "Subreddit", "Author", "Created Time", "Keyword Matched", "Post URL"
             ])
             st.dataframe(df)
@@ -37,12 +42,12 @@ if st.button("Search"):
             st.download_button(
                 label="Download results as CSV",
                 data=csv,
-                file_name=f"reddit_{keyword}_results.csv",
+                file_name=f"reddit_{'_'.join(keywords)}_results.csv",
                 mime="text/csv"
             )
 
             # Also save to data directory
             data_path = os.path.join(config["data_dir"], "reddit_results3.csv")
-            save_to_csv(results, filename=data_path)
+            save_to_csv(all_results, filename=data_path)
         else:
-            st.warning("No posts found for this keyword.")
+            st.warning("No posts found for these keywords.")
