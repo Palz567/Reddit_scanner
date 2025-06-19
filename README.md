@@ -3,7 +3,7 @@
 
 ### AI-powered Reddit Intelligence for Ethical Social Impact
 
-**Project Kavach** is a modular, next-gen public discourse analysis system engineered to support the core mission of Project Karna: safeguarding digital dignity, combating misinformation, and strengthening civic awareness.
+**Project Kavach** is a modular, next-gen public discourse analysis system engineered to support the core mission of Project Karna: safeguarding digital dignity, combating misinformation, and strengthening civic awarenes.
 
 This platform transforms Reddit's raw conversation threads into structured, ethically sourced insights—ready to power research, policy dashboards, and AI/LLM pipelines.
 
