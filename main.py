@@ -1,6 +1,6 @@
 # main.py
 from config import load_config
-from reddit_client import RedditScraper
+from reddit_client import RedditScraper, monitor_new_posts
 from utils import save_to_csv
 import os
 
@@ -13,7 +13,8 @@ def main():
         config["user_agent"]
     )
 
-    keywords = ["deepfake", "AI", "machine learning"]  # List your keywords here
+    keywords = ["deepfake", "scam"]  # Your keywords here
+    monitor_new_posts(scraper, keywords, limit=50, interval_minutes=30)
 
     print(f"Searching Reddit for posts containing ALL keywords: {keywords}...")
     results = scraper.search_posts(keywords, limit=50)

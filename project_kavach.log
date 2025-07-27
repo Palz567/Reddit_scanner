@@ -210,3 +210,57 @@
 2025-07-27 18:21:02,924 INFO: Total posts found: 5
 2025-07-27 18:21:02,977 INFO: Results displayed in UI and CSV download offered.
 2025-07-27 18:21:02,990 INFO: Results saved to D:\Codz\Python\TwitterProj\Reddit_scanner\data\reddit_results3.csv
+2025-07-28 00:09:39,500 INFO: Reddit API configuration loaded.
+2025-07-28 00:09:39,575 INFO: RedditScraper initialized.
+2025-07-28 00:09:51,415 INFO: Reddit API configuration loaded.
+2025-07-28 00:09:51,416 INFO: RedditScraper initialized.
+2025-07-28 00:09:53,302 INFO: Reddit API configuration loaded.
+2025-07-28 00:09:53,303 INFO: RedditScraper initialized.
+2025-07-28 00:09:53,311 INFO: User initiated Posts search for keywords: ['AI Fraud', 'Deepfake'] with limit: 20
+2025-07-28 00:09:55,261 INFO: Total posts found: 1
+2025-07-28 00:09:55,321 INFO: Results displayed in UI and CSV download offered.
+2025-07-28 00:09:55,337 INFO: Results saved to D:\Codz\Python\TwitterProj\Reddit_scanner\data\reddit_results3.csv
+2025-07-28 00:11:54,754 INFO: Reddit API configuration loaded.
+2025-07-28 00:11:54,755 INFO: RedditScraper initialized.
+2025-07-28 00:11:56,160 INFO: Reddit API configuration loaded.
+2025-07-28 00:11:56,161 INFO: RedditScraper initialized.
+2025-07-28 00:11:56,166 INFO: User initiated Posts search for keywords: ['scam', 'Deepfake'] with limit: 20
+2025-07-28 00:11:57,771 INFO: Total posts found: 10
+2025-07-28 00:11:57,818 INFO: Results displayed in UI and CSV download offered.
+2025-07-28 00:11:57,833 INFO: Results saved to D:\Codz\Python\TwitterProj\Reddit_scanner\data\reddit_results3.csv
+2025-07-28 00:12:05,167 INFO: Reddit API configuration loaded.
+2025-07-28 00:12:05,168 INFO: RedditScraper initialized.
+2025-07-28 00:12:09,398 INFO: Reddit API configuration loaded.
+2025-07-28 00:12:09,399 INFO: RedditScraper initialized.
+2025-07-28 00:12:09,413 INFO: User initiated Posts search for keywords: ['scam', 'Deepfake'] with limit: 200
+2025-07-28 00:12:15,017 INFO: Total posts found: 54
+2025-07-28 00:12:15,023 INFO: Results displayed in UI and CSV download offered.
+2025-07-28 00:12:15,036 INFO: Results saved to D:\Codz\Python\TwitterProj\Reddit_scanner\data\reddit_results3.csv
+2025-07-28 00:22:44,082 INFO: Reddit API configuration loaded.
+2025-07-28 00:22:44,083 INFO: RedditScraper initialized.
+2025-07-28 00:22:54,970 INFO: Reddit API configuration loaded.
+2025-07-28 00:22:54,971 INFO: RedditScraper initialized.
+2025-07-28 00:22:55,196 INFO: Reddit API configuration loaded.
+2025-07-28 00:22:55,197 INFO: RedditScraper initialized.
+2025-07-28 00:22:55,206 INFO: User initiated Posts search for keywords: ['Scam', 'Deepfake'] with limit: 20
+2025-07-28 00:22:57,947 INFO: Total posts found: 20
+2025-07-28 00:22:57,961 INFO: Results displayed in UI and CSV download offered.
+2025-07-28 00:22:57,976 INFO: Results saved to D:\Codz\Python\TwitterProj\Reddit_scanner\data\reddit_results3.csv
+2025-07-28 00:23:07,335 INFO: Reddit API configuration loaded.
+2025-07-28 00:23:07,336 INFO: RedditScraper initialized.
+2025-07-28 00:23:07,539 INFO: Reddit API configuration loaded.
+2025-07-28 00:23:07,540 INFO: RedditScraper initialized.
+2025-07-28 00:23:07,553 INFO: User initiated Posts search for keywords: ['Scam', 'Deepfake'] with limit: 200
+2025-07-28 00:23:13,315 INFO: Total posts found: 54
+2025-07-28 00:23:13,322 INFO: Results displayed in UI and CSV download offered.
+2025-07-28 00:23:13,336 INFO: Results saved to D:\Codz\Python\TwitterProj\Reddit_scanner\data\reddit_results3.csv
+2025-07-28 00:23:27,174 INFO: Reddit API configuration loaded.
+2025-07-28 00:23:27,178 INFO: RedditScraper initialized.
+2025-07-28 00:23:30,284 INFO: Reddit API configuration loaded.
+2025-07-28 00:23:30,286 INFO: RedditScraper initialized.
+2025-07-28 00:23:37,066 INFO: Reddit API configuration loaded.
+2025-07-28 00:23:37,067 INFO: RedditScraper initialized.
+2025-07-28 00:23:37,292 INFO: Reddit API configuration loaded.
+2025-07-28 00:23:37,294 INFO: RedditScraper initialized.
+2025-07-28 00:23:37,303 INFO: User initiated Subreddits search for keywords: ['Deepfake'] with limit: 20
+2025-07-28 00:23:39,611 INFO: Total subreddits found: 17

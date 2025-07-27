@@ -30,31 +30,51 @@ st.title("Project Kavach")
 keywords_input = st.text_input("Enter keyword(s) to search on Reddit (comma-separated):", value="Financial Fraud,AI Fraud,Deepfake")
 keywords = [k.strip() for k in keywords_input.split(",") if k.strip()]
 limit = st.number_input("Number of results (Last 1 Year)", min_value=1, max_value=10000, value=20, step=1)
-
+search_type = st.radio("Search for:", ["Posts", "Subreddits"])
 
 if st.button("Search"):
-    logging.info(f"User initiated search for keywords: {keywords} with limit: {limit}")
-    with st.spinner(f"Searching Reddit for: {', '.join(keywords)}"):
-        results = scraper.search_posts(keywords, limit=limit)
-        if results:
-            logging.info(f"Total posts found: {len(results)}")
-            st.success(f"Found {len(results)} posts for '{', '.join(keywords)}'.")
-            df = pd.DataFrame(results, columns=[
-                "Post ID", "Title", "Subreddit", "Author", "Created Time", "Keyword Matched", "Post URL"
-            ])
-            st.dataframe(df)
-            logging.info("Results displayed in UI and CSV download offered.")
-            csv = df.to_csv(index=False).encode('utf-8')
-            st.download_button(
-                label="Download results as CSV",
-                data=csv,
-                file_name=f"reddit_{'_'.join(keywords)}_results.csv",
-                mime="text/csv"
-            )
-            data_path = os.path.join(config["data_dir"], "reddit_results3.csv")
-            save_to_csv(results, filename=data_path)
-            logging.info(f"Results saved to {data_path}")
+    logging.info(f"User initiated {search_type} search for keywords: {keywords} with limit: {limit}")
+    with st.spinner(f"Searching Reddit {search_type.lower()} for: {', '.join(keywords)}"):
+        if search_type == "Posts":
+            results = scraper.search_posts(keywords, limit=limit)
+            if results:
+                logging.info(f"Total posts found: {len(results)}")
+                st.success(f"Found {len(results)} posts for '{', '.join(keywords)}'.")
+                df = pd.DataFrame(results, columns=[
+                    "Post ID", "Title", "Subreddit", "Author", "Created Time", "Keyword Matched", "Post URL"
+                ])
+                st.dataframe(df)
+                logging.info("Results displayed in UI and CSV download offered.")
+                csv = df.to_csv(index=False).encode('utf-8')
+                st.download_button(
+                    label="Download results as CSV",
+                    data=csv,
+                    file_name=f"reddit_{'_'.join(keywords)}_results.csv",
+                    mime="text/csv"
+                )
+                data_path = os.path.join(config["data_dir"], "reddit_results3.csv")
+                save_to_csv(results, filename=data_path)
+                logging.info(f"Results saved to {data_path}")
+            else:
+                st.warning("No posts found for these keywords.")
+                logging.info("No posts found for these keywords.") #logg file
         else:
-            st.warning("No posts found for these keywords.")
-            logging.info("No posts found for these keywords.") #logg file
+            results = scraper.search_subreddits(keywords, limit=limit)
+            if results:
+                logging.info(f"Total subreddits found: {len(results)}")
+                st.success(f"Found {len(results)} subreddits for '{', '.join(keywords)}'.")
+                df = pd.DataFrame(results, columns=[
+                    "Subreddit Name", "Title", "Description", "Subscribers", "URL"
+                ])
+                st.dataframe(df)
+                csv = df.to_csv(index=False).encode('utf-8')
+                st.download_button(
+                    label="Download results as CSV",
+                    data=csv,
+                    file_name=f"subreddits_{'_'.join(keywords)}_results.csv",
+                    mime="text/csv"
+                )
+            else:
+                st.warning("No subreddits found for these keywords.")
+                logging.info("No subreddits found for these keywords.")
 
