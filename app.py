@@ -33,27 +33,17 @@ limit = st.number_input("Number of results (Last 1 Year)", min_value=1, max_valu
 
 
 if st.button("Search"):
-    logging.info(f"User initiated search for keywords: {keywords} with limit: {limit}")  #logg file 
-
+    logging.info(f"User initiated search for keywords: {keywords} with limit: {limit}")
     with st.spinner(f"Searching Reddit for: {', '.join(keywords)}"):
-        all_results = []
-        for keyword in keywords:
-            logging.info(f"Searching posts for keyword: {keyword}") # logg file 
-            results = scraper.search_posts(keyword, limit=limit)
-            all_results.extend(results)
-            logging.info(f"Found {len(results)} posts for keyword: {keyword}") # logg file 
-
-        if all_results:
-            logging.info(f"Total posts found: {len(all_results)}") #logg file 
-            st.success(f"Found {len(all_results)} posts for '{', '.join(keywords)}'.")
-            # Show results in a table
-            df = pd.DataFrame(all_results, columns=[
+        results = scraper.search_posts(keywords, limit=limit)
+        if results:
+            logging.info(f"Total posts found: {len(results)}")
+            st.success(f"Found {len(results)} posts for '{', '.join(keywords)}'.")
+            df = pd.DataFrame(results, columns=[
                 "Post ID", "Title", "Subreddit", "Author", "Created Time", "Keyword Matched", "Post URL"
             ])
             st.dataframe(df)
-            logging.info("Results displayed in UI and CSV download offered.") #logg file 
-
-            # Option to download as CSV
+            logging.info("Results displayed in UI and CSV download offered.")
             csv = df.to_csv(index=False).encode('utf-8')
             st.download_button(
                 label="Download results as CSV",
@@ -61,12 +51,10 @@ if st.button("Search"):
                 file_name=f"reddit_{'_'.join(keywords)}_results.csv",
                 mime="text/csv"
             )
-
-            # Also save to data directory
             data_path = os.path.join(config["data_dir"], "reddit_results3.csv")
-            save_to_csv(all_results, filename=data_path)
-            logging.info(f"Results saved to {data_path}") #logg file 
+            save_to_csv(results, filename=data_path)
+            logging.info(f"Results saved to {data_path}")
         else:
             st.warning("No posts found for these keywords.")
             logging.info("No posts found for these keywords.") #logg file
-        
+

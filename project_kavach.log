@@ -16,3 +16,197 @@
 2025-05-30 00:22:50,989 INFO: Results saved to D:\Codz\Python\TwitterProj\Reddit_scanner\data\reddit_results3.csv
 2025-05-30 01:59:53,915 INFO: Reddit API configuration loaded.
 2025-05-30 01:59:53,932 INFO: RedditScraper initialized.
+2025-05-30 21:48:30,929 INFO: Reddit API configuration loaded.
+2025-05-30 21:48:31,409 INFO: RedditScraper initialized.
+2025-05-30 21:49:02,809 INFO: Reddit API configuration loaded.
+2025-05-30 21:49:02,811 INFO: RedditScraper initialized.
+2025-05-30 21:49:02,822 INFO: User initiated search for keywords: ['Financial Fraud', 'AI Fraud', 'Deepfake'] with limit: 20
+2025-05-30 21:49:02,826 INFO: Searching posts for keyword: Financial Fraud
+2025-05-30 21:49:04,773 INFO: Found 3 posts for keyword: Financial Fraud
+2025-05-30 21:49:04,774 INFO: Searching posts for keyword: AI Fraud
+2025-05-30 21:49:05,815 INFO: Found 0 posts for keyword: AI Fraud
+2025-05-30 21:49:05,815 INFO: Searching posts for keyword: Deepfake
+2025-05-30 21:49:06,811 INFO: Found 9 posts for keyword: Deepfake
+2025-05-30 21:49:06,812 INFO: Total posts found: 12
+2025-05-30 21:49:06,912 INFO: Results displayed in UI and CSV download offered.
+2025-05-30 21:49:06,936 INFO: Results saved to D:\Codz\Python\TwitterProj\Reddit_scanner\data\reddit_results3.csv
+2025-05-30 21:49:28,642 INFO: Reddit API configuration loaded.
+2025-05-30 21:49:28,644 INFO: RedditScraper initialized.
+2025-05-30 21:49:38,620 INFO: Reddit API configuration loaded.
+2025-05-30 21:49:38,620 INFO: RedditScraper initialized.
+2025-05-30 21:49:38,850 INFO: Reddit API configuration loaded.
+2025-05-30 21:49:38,851 INFO: RedditScraper initialized.
+2025-05-30 21:49:38,860 INFO: User initiated search for keywords: ['googleai'] with limit: 20
+2025-05-30 21:49:38,864 INFO: Searching posts for keyword: googleai
+2025-05-30 21:49:40,596 INFO: Found 16 posts for keyword: googleai
+2025-05-30 21:49:40,597 INFO: Total posts found: 16
+2025-05-30 21:49:40,612 INFO: Results displayed in UI and CSV download offered.
+2025-05-30 21:49:40,633 INFO: Results saved to D:\Codz\Python\TwitterProj\Reddit_scanner\data\reddit_results3.csv
+2025-05-30 21:50:31,542 INFO: Reddit API configuration loaded.
+2025-05-30 21:50:31,543 INFO: RedditScraper initialized.
+2025-05-30 21:50:40,114 INFO: Reddit API configuration loaded.
+2025-05-30 21:50:40,116 INFO: RedditScraper initialized.
+2025-05-30 21:50:47,528 INFO: Reddit API configuration loaded.
+2025-05-30 21:50:47,529 INFO: RedditScraper initialized.
+2025-05-30 21:50:50,733 INFO: Reddit API configuration loaded.
+2025-05-30 21:50:50,734 INFO: RedditScraper initialized.
+2025-05-30 21:50:50,741 INFO: User initiated search for keywords: ['Audio deepfake', 'Fraud'] with limit: 2000
+2025-05-30 21:50:50,744 INFO: Searching posts for keyword: Audio deepfake
+2025-05-30 21:50:56,584 INFO: Found 9 posts for keyword: Audio deepfake
+2025-05-30 21:50:56,584 INFO: Searching posts for keyword: Fraud
+2025-05-30 21:51:03,377 INFO: Found 133 posts for keyword: Fraud
+2025-05-30 21:51:03,377 INFO: Total posts found: 142
+2025-05-30 21:51:03,389 INFO: Results displayed in UI and CSV download offered.
+2025-05-30 21:51:03,399 INFO: Results saved to D:\Codz\Python\TwitterProj\Reddit_scanner\data\reddit_results3.csv
+2025-06-16 21:39:36,624 INFO: Reddit API configuration loaded.
+2025-06-16 21:39:36,780 INFO: RedditScraper initialized.
+2025-06-16 21:39:47,567 INFO: Reddit API configuration loaded.
+2025-06-16 21:39:47,568 INFO: RedditScraper initialized.
+2025-06-16 21:39:47,576 INFO: User initiated search for keywords: ['Financial Fraud', 'AI Fraud', 'Deepfake'] with limit: 20
+2025-06-16 21:39:47,577 INFO: Searching posts for keyword: Financial Fraud
+2025-06-16 21:39:49,535 INFO: Found 3 posts for keyword: Financial Fraud
+2025-06-16 21:39:49,536 INFO: Searching posts for keyword: AI Fraud
+2025-06-16 21:39:50,307 INFO: Found 0 posts for keyword: AI Fraud
+2025-06-16 21:39:50,307 INFO: Searching posts for keyword: Deepfake
+2025-06-16 21:39:51,129 INFO: Found 8 posts for keyword: Deepfake
+2025-06-16 21:39:51,130 INFO: Total posts found: 11
+2025-06-16 21:39:51,226 INFO: Results displayed in UI and CSV download offered.
+2025-06-16 21:39:51,260 INFO: Results saved to D:\Codz\Python\TwitterProj\Reddit_scanner\data\reddit_results3.csv
+2025-07-18 20:05:22,072 INFO: Reddit API configuration loaded.
+2025-07-18 20:05:22,170 INFO: RedditScraper initialized.
+2025-07-18 20:09:21,323 INFO: Reddit API configuration loaded.
+2025-07-18 20:09:21,324 INFO: RedditScraper initialized.
+2025-07-18 20:09:54,061 INFO: Reddit API configuration loaded.
+2025-07-18 20:09:54,063 INFO: RedditScraper initialized.
+2025-07-18 20:09:54,078 INFO: User initiated search for keywords: ['Deepfake', 'scam'] with limit: 20
+2025-07-18 20:09:54,080 INFO: Searching posts for keyword: Deepfake
+2025-07-18 20:09:55,574 INFO: Found 3 posts for keyword: Deepfake
+2025-07-18 20:09:55,574 INFO: Searching posts for keyword: scam
+2025-07-18 20:09:56,860 INFO: Found 18 posts for keyword: scam
+2025-07-18 20:09:56,860 INFO: Total posts found: 21
+2025-07-18 20:09:56,965 INFO: Results displayed in UI and CSV download offered.
+2025-07-18 20:09:56,984 INFO: Results saved to D:\Codz\Python\TwitterProj\Reddit_scanner\data\reddit_results3.csv
+2025-07-20 14:37:02,403 INFO: Reddit API configuration loaded.
+2025-07-20 14:37:02,405 INFO: RedditScraper initialized.
+2025-07-20 14:37:09,256 INFO: Reddit API configuration loaded.
+2025-07-20 14:37:09,257 INFO: RedditScraper initialized.
+2025-07-20 14:37:09,466 INFO: Reddit API configuration loaded.
+2025-07-20 14:37:09,467 INFO: RedditScraper initialized.
+2025-07-20 14:37:09,477 INFO: User initiated search for keywords: ['Deepfake'] with limit: 20
+2025-07-20 14:37:09,479 INFO: Searching posts for keyword: Deepfake
+2025-07-20 14:37:11,108 INFO: Found 7 posts for keyword: Deepfake
+2025-07-20 14:37:11,108 INFO: Total posts found: 7
+2025-07-20 14:37:11,126 INFO: Results displayed in UI and CSV download offered.
+2025-07-20 14:37:11,181 INFO: Results saved to D:\Codz\Python\TwitterProj\Reddit_scanner\data\reddit_results3.csv
+2025-07-20 14:43:18,740 INFO: Reddit API configuration loaded.
+2025-07-20 14:43:18,741 INFO: RedditScraper initialized.
+2025-07-20 14:43:20,885 INFO: Reddit API configuration loaded.
+2025-07-20 14:43:20,887 INFO: RedditScraper initialized.
+2025-07-20 14:43:20,894 INFO: User initiated search for keywords: ['Deepfake'] with limit: 200
+2025-07-20 14:43:20,896 INFO: Searching posts for keyword: Deepfake
+2025-07-20 14:43:25,573 INFO: Found 71 posts for keyword: Deepfake
+2025-07-20 14:43:25,573 INFO: Total posts found: 71
+2025-07-20 14:43:25,584 INFO: Results displayed in UI and CSV download offered.
+2025-07-20 14:43:25,597 INFO: Results saved to D:\Codz\Python\TwitterProj\Reddit_scanner\data\reddit_results3.csv
+2025-07-20 14:52:05,345 INFO: Reddit API configuration loaded.
+2025-07-20 14:52:05,349 INFO: RedditScraper initialized.
+2025-07-20 14:52:07,157 INFO: Reddit API configuration loaded.
+2025-07-20 14:52:07,158 INFO: RedditScraper initialized.
+2025-07-20 14:52:07,378 INFO: Reddit API configuration loaded.
+2025-07-20 14:52:07,380 INFO: RedditScraper initialized.
+2025-07-20 14:52:07,391 INFO: User initiated search for keywords: ['Deepfake', 'call'] with limit: 20
+2025-07-20 14:52:07,394 INFO: Searching posts for keyword: Deepfake
+2025-07-20 14:52:08,894 INFO: Found 7 posts for keyword: Deepfake
+2025-07-20 14:52:08,895 INFO: Searching posts for keyword: call
+2025-07-20 14:52:10,531 INFO: Found 18 posts for keyword: call
+2025-07-20 14:52:10,532 INFO: Total posts found: 25
+2025-07-20 14:52:10,541 INFO: Results displayed in UI and CSV download offered.
+2025-07-20 14:52:10,549 INFO: Results saved to D:\Codz\Python\TwitterProj\Reddit_scanner\data\reddit_results3.csv
+2025-07-20 14:52:20,616 INFO: Reddit API configuration loaded.
+2025-07-20 14:52:20,617 INFO: RedditScraper initialized.
+2025-07-20 14:52:20,836 INFO: Reddit API configuration loaded.
+2025-07-20 14:52:20,836 INFO: RedditScraper initialized.
+2025-07-20 14:52:20,845 INFO: User initiated search for keywords: ['call'] with limit: 20
+2025-07-20 14:52:20,847 INFO: Searching posts for keyword: call
+2025-07-20 14:52:22,432 INFO: Found 18 posts for keyword: call
+2025-07-20 14:52:22,432 INFO: Total posts found: 18
+2025-07-20 14:52:22,440 INFO: Results displayed in UI and CSV download offered.
+2025-07-20 14:52:22,451 INFO: Results saved to D:\Codz\Python\TwitterProj\Reddit_scanner\data\reddit_results3.csv
+2025-07-20 14:52:32,279 INFO: Reddit API configuration loaded.
+2025-07-20 14:52:32,280 INFO: RedditScraper initialized.
+2025-07-20 14:52:36,555 INFO: Reddit API configuration loaded.
+2025-07-20 14:52:36,555 INFO: RedditScraper initialized.
+2025-07-20 14:52:36,561 INFO: User initiated search for keywords: ['scam'] with limit: 20
+2025-07-20 14:52:36,564 INFO: Searching posts for keyword: scam
+2025-07-20 14:52:38,284 INFO: Found 18 posts for keyword: scam
+2025-07-20 14:52:38,284 INFO: Total posts found: 18
+2025-07-20 14:52:38,293 INFO: Results displayed in UI and CSV download offered.
+2025-07-20 14:52:38,302 INFO: Results saved to D:\Codz\Python\TwitterProj\Reddit_scanner\data\reddit_results3.csv
+2025-07-21 22:58:51,604 INFO: Reddit API configuration loaded.
+2025-07-21 22:58:52,032 INFO: RedditScraper initialized.
+2025-07-21 23:04:12,697 INFO: Reddit API configuration loaded.
+2025-07-21 23:04:12,698 INFO: RedditScraper initialized.
+2025-07-21 23:04:12,905 INFO: Reddit API configuration loaded.
+2025-07-21 23:04:12,907 INFO: RedditScraper initialized.
+2025-07-21 23:04:12,910 INFO: User initiated search for keywords: ['Financial Fraud', 'Deepfake'] with limit: 20
+2025-07-21 23:04:12,913 INFO: Searching posts for keyword: Financial Fraud
+2025-07-21 23:04:15,756 INFO: Found 20 posts for keyword: Financial Fraud
+2025-07-21 23:04:15,757 INFO: Searching posts for keyword: Deepfake
+2025-07-21 23:04:18,034 INFO: Found 20 posts for keyword: Deepfake
+2025-07-21 23:04:18,034 INFO: Total posts found: 40
+2025-07-21 23:04:18,139 INFO: Results displayed in UI and CSV download offered.
+2025-07-21 23:04:18,160 INFO: Results saved to D:\Codz\Python\TwitterProj\Reddit_scanner\data\reddit_results3.csv
+2025-07-21 23:04:30,772 INFO: Reddit API configuration loaded.
+2025-07-21 23:04:30,773 INFO: RedditScraper initialized.
+2025-07-21 23:04:30,982 INFO: Reddit API configuration loaded.
+2025-07-21 23:04:30,982 INFO: RedditScraper initialized.
+2025-07-21 23:04:30,985 INFO: User initiated search for keywords: ['scam', 'Deepfake'] with limit: 20
+2025-07-21 23:04:30,988 INFO: Searching posts for keyword: scam
+2025-07-21 23:04:33,610 INFO: Found 20 posts for keyword: scam
+2025-07-21 23:04:33,611 INFO: Searching posts for keyword: Deepfake
+2025-07-21 23:04:34,628 INFO: Found 20 posts for keyword: Deepfake
+2025-07-21 23:04:34,629 INFO: Total posts found: 40
+2025-07-21 23:04:34,637 INFO: Results displayed in UI and CSV download offered.
+2025-07-21 23:04:34,647 INFO: Results saved to D:\Codz\Python\TwitterProj\Reddit_scanner\data\reddit_results3.csv
+2025-07-21 23:10:42,206 INFO: Reddit API configuration loaded.
+2025-07-21 23:10:42,208 INFO: RedditScraper initialized.
+2025-07-21 23:10:52,544 INFO: Reddit API configuration loaded.
+2025-07-21 23:10:52,545 INFO: RedditScraper initialized.
+2025-07-21 23:10:52,762 INFO: Reddit API configuration loaded.
+2025-07-21 23:10:52,763 INFO: RedditScraper initialized.
+2025-07-21 23:10:52,774 INFO: User initiated search for keywords: ['Scam', 'Deepfake'] with limit: 20
+2025-07-21 23:10:52,776 INFO: Searching posts for keyword: Scam
+2025-07-21 23:10:54,570 INFO: Found 0 posts for keyword: Scam
+2025-07-21 23:10:54,570 INFO: Searching posts for keyword: Deepfake
+2025-07-21 23:10:56,224 INFO: Found 20 posts for keyword: Deepfake
+2025-07-21 23:10:56,225 INFO: Total posts found: 20
+2025-07-21 23:10:56,245 INFO: Results displayed in UI and CSV download offered.
+2025-07-21 23:10:56,259 INFO: Results saved to D:\Codz\Python\TwitterProj\Reddit_scanner\data\reddit_results3.csv
+2025-07-21 23:20:14,067 INFO: Reddit API configuration loaded.
+2025-07-21 23:20:14,068 INFO: RedditScraper initialized.
+2025-07-21 23:20:24,205 INFO: Reddit API configuration loaded.
+2025-07-21 23:20:24,205 INFO: RedditScraper initialized.
+2025-07-21 23:20:24,389 INFO: Reddit API configuration loaded.
+2025-07-21 23:20:24,389 INFO: RedditScraper initialized.
+2025-07-21 23:20:24,393 INFO: User initiated search for keywords: ['Scam', 'Deepfake'] with limit: 20
+2025-07-21 23:20:26,403 INFO: Total posts found: 10
+2025-07-21 23:20:26,416 INFO: Results displayed in UI and CSV download offered.
+2025-07-21 23:20:26,428 INFO: Results saved to D:\Codz\Python\TwitterProj\Reddit_scanner\data\reddit_results3.csv
+2025-07-21 23:24:13,659 INFO: Reddit API configuration loaded.
+2025-07-21 23:24:13,659 INFO: RedditScraper initialized.
+2025-07-21 23:24:13,852 INFO: Reddit API configuration loaded.
+2025-07-21 23:24:13,856 INFO: RedditScraper initialized.
+2025-07-21 23:24:13,858 INFO: User initiated search for keywords: ['Fraud', 'Deepfake'] with limit: 20
+2025-07-21 23:24:15,836 INFO: Total posts found: 12
+2025-07-21 23:24:15,845 INFO: Results displayed in UI and CSV download offered.
+2025-07-21 23:24:15,855 INFO: Results saved to D:\Codz\Python\TwitterProj\Reddit_scanner\data\reddit_results3.csv
+2025-07-27 18:20:41,206 INFO: Reddit API configuration loaded.
+2025-07-27 18:20:41,324 INFO: RedditScraper initialized.
+2025-07-27 18:20:59,405 INFO: Reddit API configuration loaded.
+2025-07-27 18:20:59,405 INFO: RedditScraper initialized.
+2025-07-27 18:20:59,662 INFO: Reddit API configuration loaded.
+2025-07-27 18:20:59,663 INFO: RedditScraper initialized.
+2025-07-27 18:20:59,669 INFO: User initiated search for keywords: ['Financial Fraud', 'Deepfake'] with limit: 20
+2025-07-27 18:21:02,924 INFO: Total posts found: 5
+2025-07-27 18:21:02,977 INFO: Results displayed in UI and CSV download offered.
+2025-07-27 18:21:02,990 INFO: Results saved to D:\Codz\Python\TwitterProj\Reddit_scanner\data\reddit_results3.csv

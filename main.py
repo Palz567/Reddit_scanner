@@ -15,11 +15,9 @@ def main():
 
     keywords = ["deepfake", "AI", "machine learning"]  # List your keywords here
 
-    all_results = []
-    for keyword in keywords:
-        print(f"Searching Reddit for posts containing: '{keyword}'...")
-        results = scraper.search_posts(keyword)
-        all_results.extend(results)  # Collect all results
+    print(f"Searching Reddit for posts containing ALL keywords: {keywords}...")
+    results = scraper.search_posts(keywords, limit=50)
+    all_results = results  # Only one search needed
 
     data_path = os.path.join(config["data_dir"], "reddit_results3.csv")
     save_to_csv(all_results, filename=data_path)

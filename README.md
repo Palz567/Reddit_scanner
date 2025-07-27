@@ -22,7 +22,7 @@ Project Kavach is dedicated to promoting a safe, inclusive, and ethical digital 
 
 ## Features
 
--  **Multi-keyword search** (matches posts containing any of the keywords)
+-  **Multi-keyword search (AND logic)** (matches posts containing all specified keywords as whole words)
 -  **On-demand Reddit data scraping** using PRAW
 -  **Structured CSV export** with metadata
 -  **Streamlit UI** for search & visualization
